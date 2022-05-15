@@ -2,6 +2,7 @@ version: '3'
 services:
   nextjs:
     build: .
+    container_name: nextjs
     tty: true
     restart: always
     command: npm run dev
@@ -9,7 +10,7 @@ services:
       - 3000:3000
     volumes:
       #コンテナ→ホストへの反映を早くするため:cached
-      - .:/workspace:cached\
+      - .:/workspace:cached
       - nextjs-node-modules:/workspace/node_modules
     environment:
       - CHOKIDAR_USEPOLLING=true

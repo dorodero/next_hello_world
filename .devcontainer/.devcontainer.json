@@ -1,6 +1,6 @@
 {
     "name": "NextJS",
-    "dockerComposeFile": "./docker-compose.yml",
+    "dockerComposeFile": "../docker-compose.yml",
     "service": "nextjs",
     "workspaceFolder": "/workspace",
     "extensions": [],
