@@ -3,7 +3,6 @@
     "dockerComposeFile": "./docker-compose.yml",
     "service": "nextjs",
     "workspaceFolder": "/workspace",
-    "extensions": [
-    ],
+    "extensions": [],
     "shutdownAction": "stopCompose"
 }
