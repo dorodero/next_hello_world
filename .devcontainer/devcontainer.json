@@ -3,6 +3,8 @@
     "dockerComposeFile": "../docker-compose.yml",
     "service": "nextjs",
     "workspaceFolder": "/workspace",
-    "extensions": [],
+    "extensions": [
+        "esbenp.prettier-vscode"
+    ],
     "shutdownAction": "stopCompose"
 }
