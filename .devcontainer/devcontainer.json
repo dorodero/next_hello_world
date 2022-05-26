@@ -4,7 +4,6 @@
     "service": "nextjs",
     "workspaceFolder": "/workspace",
     "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash"
     },
     "extensions": [
         "esbenp.prettier-vscode"
